@@ -4,7 +4,7 @@ def CadastrarProd (dicionario):
     print("\n")
 
     for i in range (QuantosCad):
-        chave = input("Digite o {}º produto: ".format(i))
+        chave = input("Digite o {}º produto: ".format(i+1))
         dicionario[chave] = float(input("Digite o valor: "))
         print()
 
